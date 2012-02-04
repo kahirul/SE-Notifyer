@@ -1,0 +1,17 @@
+{
+	"name": "SE Notifyer",
+	"version": "1.0",
+	"description": "Notify new unanswered post in StackExchange site",
+	"icons": {
+		"16": "stackexchange.png",
+		"48": "stackexchange-logo.png",
+		"128": "stackexchange-logo.png" 
+	},
+	"browser_action": {
+		"default_icon": "stackexchange.png",
+		"popup": "popup.html"
+	},
+	"permissions": [
+		"http://*/", "https://*/"
+	]
+}
