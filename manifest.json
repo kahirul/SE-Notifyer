@@ -2,13 +2,15 @@
 	"name": "SE Notifyer",
 	"version": "1.0",
 	"description": "Notify new unanswered post in StackExchange site",
+	"homepage_url": "https://github.com/kyuha/SE-Notifyer",
+	"options_page": "options.html",
 	"icons": {
-		"16": "stackexchange.png",
-		"48": "stackexchange-logo.png",
-		"128": "stackexchange-logo.png" 
+		"16": "images/stackexchange.png",
+		"48": "images/stackexchange-logo48.png",
+		"128": "images/stackexchange-logo.png" 
 	},
 	"browser_action": {
-		"default_icon": "stackexchange.png",
+		"default_icon": "images/stackexchange.png",
 		"popup": "popup.html"
 	},
 	"permissions": [

@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>SE Notifyer Options</title>
+		<link rel="stylesheet" rel="text/css" href="options.css"/>
+		<script type="text/javascript" src="SENotifyer.js"></script>
+		<script type="text/javascript">
+			window.onload = function(){
+				SENotifyer.restoreOptions();
+			}
+		</script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="logo"></div>
+				<div id="pagetitle">SE Notifyer Options</div>
+			</div>
+			<br style="clear:both">
+			<div id="feature">
+				<div id="content">
+					<ul>
+						<li>
+							<label for="tag">Questions Tag : </label>
+							<input type="text" id="tag" name="tag" />
+							<span class="opt-msg">e.g. nlp, c++, design-pattern</span>
+						<li>
+						<li>
+							<label for="site">StackExchange Site : </label>
+							<input type="text" id="site" name="site" />
+							<span class="opt-msg">e.g. stackoverflow</span>
+						<li>
+						<li>
+							<label for="days">Last n day : </label>
+							<input type="text" id="days" name="days" />
+							<span class="opt-msg">e.g. 3. If not set, default value is 2</span>
+						<li>
+						<li>							
+							<button onclick="SENotifyer.saveOptions()">Save</button>
+						<li>
+					</ul>
+					<div id="status"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

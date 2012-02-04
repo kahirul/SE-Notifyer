@@ -1,0 +1,88 @@
+body {
+    border: 0;
+    margin: 0;
+    font-size: 13px;
+	color: #494949;
+	font-size: 14px;
+	line-height: 1.6;
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#EDD));
+}
+* {    
+	font-family: HelveticaNeue, sans-serif
+}
+a {
+    color: #05a;
+}
+ul, ol {
+    margin-bottom: 20px;
+}
+li {
+    margin-bottom: 8px;
+	list-style: none;
+}
+
+/* Blocks */
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#header {
+    margin-top: 15px;
+}
+#logo {
+    float: left;
+    width: 48px;
+    height: 59px;
+    background: url(images/stackexchange-logo48.png);
+}
+#pagetitle {
+    float: left;
+    margin: 10px 0px 0px 20px;
+    font: bold;
+	font-size:28px ;
+}
+
+#feature{
+
+	margin: 5px;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;	
+	background: rgba(100,150,255,0.15);
+	-moz-box-shadow: 2px 2px 5px black;
+	-webkit-box-shadow: 2px 2px 5px black
+}
+
+#content{
+	padding: 20px;
+	min-height: 270px; 
+	border: 1.5px dashed #666;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#content label{
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+}
+
+#content input{
+	display: inline-block;
+	min-width: 200px;
+	color: #444;
+}
+
+.opt-msg{
+	font-style: italic;
+	color: #666;
+	font-size: 11px;
+}
+
+#status{
+	color: rgba(50,200,50, 0.9);
+	text-align: center;
+	font-style: italic;
+}
